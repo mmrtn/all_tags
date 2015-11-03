@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 
 <head>
-
+    <base href="http://www.w3schools.com/images/" target="_blank">
     <meta name="author" content="Martin Meltsas">
     <meta charset=UTF-8>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
     <title>All HTML5 tags!?</title>
     <style>
         body {
             background-image: url("https://www.visibone.com/html/htcht_840.jpg");
             color: #ff2d17;
             -webkit-user-select: none;
-            -moz-user-select: none;     /* Firefox all */
-            -ms-user-select: none;      /* IE 10+ */
+            -moz-user-select: none; /* Firefox all */
+            -ms-user-select: none; /* IE 10+ */
             -o-user-select: none;
             user-select: none;
         }
@@ -28,7 +29,7 @@
             }
         }
 
-        #footer{
+        #footer {
             background: greenyellow no-repeat center;
             page-break-after: always;
         }
@@ -67,27 +68,27 @@
         }
 
         #bunny_pic:hover {
-            opacity:0.5;
-            clip: rect(0px,200px,500px,0px);
+            opacity: 0.5;
+            clip: rect(0px, 200px, 500px, 0px);
             position: absolute;
         }
 
-        #audio_div{
+        #audio_div {
             background-attachment: fixed;
             background-image: url("http://www.w3schools.com/images/w3schools.png");
             background-position: center;
             background-repeat: repeat;
         }
 
-        #table{
+        #table {
             background-clip: border-box;
             border-style: solid;
-            border-radius:2px;
+            border-radius: 2px;
             border-top: double;
-            border-width:6px;
-            border-top-color:cadetblue;
+            border-width: 6px;
+            border-top-color: cadetblue;
             border-bottom: thick;
-            border-bottom-color:#ff56d7;
+            border-bottom-color: #ff56d7;
             border-bottom-left-radius: 2em;
             border-bottom-right-radius: 1em;
             border-top-left-radius: 1em;
@@ -99,12 +100,12 @@
             border-right-color: #daff16;
             box-decoration-break: clone;
             box-shadow: 0 0 15px #ffff6f;
-            border-collapse:collapse;
+            border-collapse: collapse;
             caption-side: bottom;
             cursor: col-resize;
         }
 
-        #table2{
+        #table2 {
             border: double deepskyblue;
             border-right-style: inset;
             border-left-style: inset;
@@ -120,9 +121,9 @@
             table-layout: fixed;
         }
 
-        #selection{
+        #selection {
             background-image: url("http://www.w3schools.com/images/w3schools.png");
-            background-clip:content-box;
+            background-clip: content-box;
             background-size: 60px 40px;
         }
 
@@ -139,7 +140,7 @@
             order: 1;
         }
 
-        #div_dialog{
+        #div_dialog {
             border-image: url("http://www.w3schools.com/images/w3schools.png") 15 stretch;
             border-image-outset: 1px;
             border-image-repeat: repeat;
@@ -147,14 +148,14 @@
             display: flex;
             align-items: center;
             align-self: center;
-            height:100px;
+            height: 100px;
             width: 700px;
             background-color: #4ebfed;
             margin-right: 40%;
             margin-left: 23.5%;
         }
 
-        #dialog2{
+        #dialog2 {
             border-image-source: url("http://www.w3schools.com/images/w3schools.png");
             border-image-width: 20px;
         }
@@ -179,7 +180,7 @@
             content: counter(section) "." counter(subsection) " ";
         }
 
-        #lists{
+        #lists {
             height: 300px;
             width: 300px;
             bottom: 5px;
@@ -204,32 +205,32 @@
             marquee-style: alternate;
         }
 
-        #list_item{
+        #list_item {
             writing-mode: vertical-rl;
             text-orientation: upright;
         }
 
-        #progress_bar{
+        #progress_bar {
             clear: right;
-            float:left;
+            float: left;
         }
 
-        #pre{
+        #pre {
 
-            float:right;
+            float: right;
             clear: left;
             display: inline;
             vertical-align: text-bottom;
             counter-increment: none;
         }
 
-        #a_plus_b{
+        #a_plus_b {
             background-color: #ffff6f;
             color: #05071a;
             border: 4px double lightgreen;
             margin: 2cm 4cm 3cm 4cm;
             margin-top: 2cm;
-            margin-right:4cm;
+            margin-right: 4cm;
             margin-bottom: 3cm;
             margin-left: 4cm;
             max-height: 150px;
@@ -242,12 +243,12 @@
             padding-top: 1cm;
             padding-right: 0.1cm;
             padding-bottom: 1cm;
-            padding-left: 1cm ;
+            padding-left: 1cm;
             text-align: center;
             text-align-last: center;
         }
 
-        #video{
+        #video {
             height: 300px;
             width: 300px;
             left: 345px;
@@ -255,18 +256,18 @@
             right: auto;
             top: auto;
             visibility: visible;
-            z-index:1;
+            z-index: 1;
             margin-top: 150px;
         }
 
-        #txt_area{
+        #txt_area {
             overflow: scroll;
             vertical-align: text-bottom;
             align-content: space-around;
             word-break: keep-all;
         }
 
-        #quote{
+        #quote {
             hyphens: auto;
             line-break: normal;
             letter-spacing: -1px;
@@ -278,7 +279,7 @@
             font: 20px antiqua;
         }
 
-        #heading4{
+        #heading4 {
             text-shadow: 0 2px #0b7e2d;
             letter-spacing: -2px;
             line-break: normal;
@@ -324,7 +325,7 @@
             column-span: all;
         }
 
-        #heading5{
+        #heading5 {
             word-spacing: 30px;
             word-wrap: break-word;
             text-decoration: underline;
@@ -346,7 +347,7 @@
             src: url("http://www.w3schools.com/images/w3schools.png");
         }
 
-        #methane{
+        #methane {
             font-family: dumb;
             font-size: 150%;
             font-size-adjust: 0.58;
@@ -356,7 +357,7 @@
             unicode-bidi: bidi-override;
         }
 
-        #equation{
+        #equation {
             font-stretch: expanded;
             font-style: oblique;
             font-synthesis: style;
@@ -368,11 +369,11 @@
             font-weight: 700;
         }
 
-        #lookin{
+        #lookin {
             opacity: 0;
         }
 
-        #lookin:hover{
+        #lookin:hover {
             opacity: 1;
         }
 
@@ -518,804 +519,893 @@
 
     </style>
     <script>
-        function clickOnBrowser(){
-            if (event.button==2){
+        function clickOnBrowser() {
+            if (event.button == 2) {
                 return false;
             }
         }
 
-        if (document.all&&!document.getElementById){
-            document.onmousedown=clickOnBrowser;
+        if (document.all && !document.getElementById) {
+            document.onmousedown = clickOnBrowser;
         }
-        document.oncontextmenu=new Function("return false")
+        document.oncontextmenu = new Function("return false")
     </script>
 </head>
 
 
-    <header role=banner><h1><span><span
+<header role=banner><h1><span><span
 
-            style="text-align: left">HTML5 TAGS...</span></span></h1></header>
-    <nav role=navigation>
-        <ul>
-            <li><span><span
-                    style="text-align: left"><a href=#text>Text</a></span> <a
-                    href=#text>Tekst</a></span>
-                <ul>
-                    <li><span><span
-                            style="text-align: left"><a href=#text__headings>Headings</a></span> <a
-                            href=#text__headings>Pealkirjad</a></span></li>
-                    <li><span><span
-                            style="text-align: left"><a href=#text__paragraphs>Paragraphs</a></span> <a
-                            href=#text__paragraphs>Lõiked</a></span></li>
-                    <li><span><span
-                            style="text-align: left"><a href=#text__blockquotes>Blockquotes</a></span> <a
-                            href=#text__blockquotes>Blockquotes</a></span></li>
-                    <li><span><span
-                            style="text-align: left"><a
-                            href=#text__lists>Lists</a></span> <a href=#text__lists>Nimekirjad</a></span></li>
-                    <li><span><span
-                            style="text-align: left"><a href=#text__hr>Horizontal
-                        rules</a></span> <a href=#text__hr>Horisontaalsed eeskirjad</a></span></li>
-                    <li><span><span
-                            style="text-align: left"><a href=#text__tables>Tabular
-                        data</a></span> <a href=#text__tables>Tabeli andmed</a></span></li>
-                    <li><span><span
-                            style="text-align: left"><a
-                            href=#text__code>Code</a></span> <a href=#text__code>Kood</a></span></li>
-                    <li><span><span
-                            style="text-align: left"><a href=#text__inline>Inline
-                        elements</a></span> <a href=#text__inline>Inline elemendid</a></span></li>
-                </ul>
-            </li>
-            <li><span><span
-                    style="text-align: left"><a href=#embedded>Embedded
-                content</a></span> <a href=#embedded>Varjatud sisu</a></span>
-                <ul>
-                    <li><span><span
-                            style="text-align: left"><a href=#embedded__images>Images</a></span> <a
-                            href=#embedded__images>Pildid</a></span></li>
-                    <li><span><span
-                            style="text-align: left"><a href=#embedded__audio>Audio</a></span> <a
-                            href=#embedded__audio>Heli-</a></span></li>
-                    <li><span><span
-                            style="text-align: left"><a href=#embedded__video>Video</a></span> <a
-                            href=#embedded__video>Video</a></span></li>
-                    <li><span><span
-                            style="text-align: left"><a href=#embedded__canvas>Canvas</a></span> <a
-                            href=#embedded__canvas>Canvas</a></span></li>
-                    <li><span><span
-                            style="text-align: left"><a href=#embedded__meter>Meter</a></span> <a
-                            href=#embedded__meter>Meeter</a></span></li>
-                    <li><span><span
-                            style="text-align: left"><a
-                            href=#embedded__progress>Progress</a></span> <a href=#embedded__progress>Progress</a></span>
-                    </li>P
-                    <li><span><span
-                            style="text-align: left"><a href=#embedded__svg>Inline
-                        SVG</a></span> <a href=#embedded__svg>Inline SVG</a></span></li>
-                    <li><span><span
-                            style="text-align: left"><a href=#embedded__iframe>IFrames</a></span> <a
-                            href=#embedded__iframe>Iframe</a></span></li>
-                </ul>
-            </li>
-            <li><span><span
-                    style="text-align: left"><a href=#forms>Form
-                elements</a></span> <a href=#forms>Vorm elemendid</a></span>
-                <ul>
-                    <li><span><span
-                            style="text-align: left"><a href=#forms__input>Input
-                        fields</a></span> <a href=#forms__input>Sisestusväljad</a></span></li>
-                    <li><span><span
-                            style="text-align: left"><a href=#forms__select>Select
-                        menus</a></span> <a href=#forms__select>Vali menüüd</a></span></li>
-                    <li><span><span
-                            style="text-align: left"><a href=#forms__checkbox>Checkboxes</a></span> <a
-                            href=#forms__checkbox>Linnukesed</a></span></li>
-                    <li><span><span
-                            style="text-align: left"><a href=#forms__radio>Radio
-                        buttons</a></span> <a href=#forms__radio>Raadio nupud</a></span></li>
-                    <li><span><span
-                            style="text-align: left"><a href=#forms__textareas>Textareas</a></span> <a
-                            href=#forms__textareas>Textareas</a></span></li>
-                    <li><span><span
-                            style="text-align: left"><a href=#forms__html5>HTML5
-                        inputs</a></span> <a href=#forms__html5>HTML5 sisendite</a></span></li>
-                    <li><span><span
-                            style="text-align: left"><a href=#forms__action>Action
-                        buttons</a></span> <a href=#forms__action>Action nupud</a></span></li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
-
-        <section id=text>
-            <header><h1><span><span
-                    style="text-align: left">Text</span> Tekst</span></h1>
-            </header>
-            <article id=text__headings>
-                <header><h1><span><span
-
-                        style="text-align: left">Headings</span> Pealkirjad</span></h1></header>
-                <div><h1><span><span
-
-                        style="text-align: left">Heading 1</span> Rubriik 1</span></h1>
-
-                    <h2><span><span
-                            style="text-align: left">Heading 2</span> Rubriik 2</span>
-                    </h2>
-
-                    <h3><span><span
-                            style="text-align: left">Heading 3</span> Rubriik 3</span>
-                    </h3><h4><span><span
-                            style="text-align: left">Heading 4</span> Rubriik 4</span>
-                    </h4><h5><span><span
-                            style="text-align: left">Heading 5</span> Rubriik 5</span>
-                    </h5><h6><span><span
-                            style="text-align: left">Heading 6</span> Rubriik 6</span>
-                    </h6></div>
-                <footer><p><span><span
+        style="text-align: left">HTML5 TAGS...</span></span></h1></header>
+<nav role=navigation>
+    <ul>
+        <li><span><span
+                style="text-align: left"><a href=#text>Text</a></span> <a
+                href=#text>Tekst</a></span>
+            <ul>
+                <li><span><span
+                        style="text-align: left"><a href=#text__headings>Headings</a></span> <a
+                        href=#text__headings>Pealkirjad</a></span></li>
+                <li><span><span
+                        style="text-align: left"><a href=#text__paragraphs>Paragraphs</a></span> <a
+                        href=#text__paragraphs>Lõiked</a></span></li>
+                <li><span><span
+                        style="text-align: left"><a href=#text__blockquotes>Blockquotes</a></span> <a
+                        href=#text__blockquotes>Blockquotes</a></span></li>
+                <li><span><span
                         style="text-align: left"><a
-                        href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p></footer>
-            </article>
-            <article id=text__paragraphs>
-                <header><h1><span><span
-                        style="text-align: left">Paragraphs</span> Lõiked</span>
-                </h1></header>
-                <div><p><span><span
-                        style="text-align: left">A paragraph (from the Greek paragraphos, “to write beside” or “written beside”) is a self-contained unit of a discourse in writing dealing with a particular point or idea.</span> Lõik (kreeka paragraphos, &quot;kirjutada kõrval&quot; või &quot;kirjalik kõrval&quot;) on iseseisev üksus diskursuse kirjalikult tegelevad konkreetse punkti või idee.</span>
+                        href=#text__lists>Lists</a></span> <a href=#text__lists>Nimekirjad</a></span></li>
+                <li><span><span
+                        style="text-align: left"><a href=#text__hr>Horizontal
+                    rules</a></span> <a href=#text__hr>Horisontaalsed eeskirjad</a></span></li>
+                <li><span><span
+                        style="text-align: left"><a href=#text__tables>Tabular
+                    data</a></span> <a href=#text__tables>Tabeli andmed</a></span></li>
+                <li><span><span
+                        style="text-align: left"><a
+                        href=#text__code>Code</a></span> <a href=#text__code>Kood</a></span></li>
+                <li><span><span
+                        style="text-align: left"><a href=#text__inline>Inline
+                    elements</a></span> <a href=#text__inline>Inline elemendid</a></span></li>
+            </ul>
+        </li>
+        <li><span><span
+                style="text-align: left"><a href=#embedded>Embedded
+            content</a></span> <a href=#embedded>Varjatud sisu</a></span>
+            <ul>
+                <li><span><span
+                        style="text-align: left"><a href=#embedded__images>Images</a></span> <a
+                        href=#embedded__images>Pildid</a></span></li>
+                <li><span><span
+                        style="text-align: left"><a href=#embedded__audio>Audio</a></span> <a
+                        href=#embedded__audio>Heli-</a></span></li>
+                <li><span><span
+                        style="text-align: left"><a href=#embedded__video>Video</a></span> <a
+                        href=#embedded__video>Video</a></span></li>
+                <li><span><span
+                        style="text-align: left"><a href=#embedded__canvas>Canvas</a></span> <a
+                        href=#embedded__canvas>Canvas</a></span></li>
+                <li><span><span
+                        style="text-align: left"><a href=#embedded__meter>Meter</a></span> <a
+                        href=#embedded__meter>Meeter</a></span></li>
+                <li><span><span
+                        style="text-align: left"><a
+                        href=#embedded__progress>Progress</a></span> <a href=#embedded__progress>Progress</a></span>
+                </li>
+                P
+                <li><span><span
+                        style="text-align: left"><a href=#embedded__svg>Inline
+                    SVG</a></span> <a href=#embedded__svg>Inline SVG</a></span></li>
+                <li><span><span
+                        style="text-align: left"><a href=#embedded__iframe>IFrames</a></span> <a
+                        href=#embedded__iframe>Iframe</a></span></li>
+            </ul>
+        </li>
+        <li><span><span
+                style="text-align: left"><a href=#forms>Form
+            elements</a></span> <a href=#forms>Vorm elemendid</a></span>
+            <ul>
+                <li><span><span
+                        style="text-align: left"><a href=#forms__input>Input
+                    fields</a></span> <a href=#forms__input>Sisestusväljad</a></span></li>
+                <li><span><span
+                        style="text-align: left"><a href=#forms__select>Select
+                    menus</a></span> <a href=#forms__select>Vali menüüd</a></span></li>
+                <li><span><span
+                        style="text-align: left"><a href=#forms__checkbox>Checkboxes</a></span> <a
+                        href=#forms__checkbox>Linnukesed</a></span></li>
+                <li><span><span
+                        style="text-align: left"><a href=#forms__radio>Radio
+                    buttons</a></span> <a href=#forms__radio>Raadio nupud</a></span></li>
+                <li><span><span
+                        style="text-align: left"><a href=#forms__textareas>Textareas</a></span> <a
+                        href=#forms__textareas>Textareas</a></span></li>
+                <li><span><span
+                        style="text-align: left"><a href=#forms__html5>HTML5
+                    inputs</a></span> <a href=#forms__html5>HTML5 sisendite</a></span></li>
+                <li><span><span
+                        style="text-align: left"><a href=#forms__action>Action
+                    buttons</a></span> <a href=#forms__action>Action nupud</a></span></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+<section id=text>
+    <header><h1><span><span
+            style="text-align: left">Text</span> Tekst</span></h1>
+    </header>
+    <article id=text__headings>
+        <header><h1><span><span
+
+                style="text-align: left">Headings</span> Pealkirjad</span></h1></header>
+        <div><h1><span><span
+
+                style="text-align: left">Heading 1</span> Rubriik 1</span></h1>
+
+            <h2><span><span
+                    style="text-align: left">Heading 2</span> Rubriik 2</span>
+            </h2>
+
+            <h3><span><span
+                    style="text-align: left">Heading 3</span> Rubriik 3</span>
+            </h3><h4><span><span
+                    style="text-align: left">Heading 4</span> Rubriik 4</span>
+            </h4><h5><span><span
+                    style="text-align: left">Heading 5</span> Rubriik 5</span>
+            </h5><h6><span><span
+                    style="text-align: left">Heading 6</span> Rubriik 6</span>
+            </h6></div>
+        <footer><p><span><span
+                style="text-align: left"><a
+                href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p></footer>
+    </article>
+    <article id=text__paragraphs>
+        <header><h1><span><span
+                style="text-align: left">Paragraphs</span> Lõiked</span>
+        </h1></header>
+        <div><p><span><span
+                style="text-align: left">A paragraph (from the Greek paragraphos, “to write beside” or “written beside”) is a self-contained unit of a discourse in writing dealing with a particular point or idea.</span> Lõik (kreeka paragraphos, &quot;kirjutada kõrval&quot; või &quot;kirjalik kõrval&quot;) on iseseisev üksus diskursuse kirjalikult tegelevad konkreetse punkti või idee.</span>
                     <span><span
                             style="text-align: left">A paragraph consists of one or more sentences.</span> Lõik koosneb ühest või mitmest lauseid.</span>
                     <span><span
                             style="text-align: left">Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.</span> Kuigi seda ei nõua süntaks tahes keeles, punktid on tavaliselt oodatava osa ametlikke kirjalikult korraldamisel kasutatakse enam proosa.</span>
-                </p></div>
-                <footer><p><span><span
-                        style="text-align: left"><a
-                        href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p></footer>
-            </article>
-            <article id=text__blockquotes>
-                <header><h1><span><span
-                        style="text-align: left">Blockquotes</span> Blockquotes</span>
-                </h1></header>
-                <div>
-                    <blockquote><p><span><span
-                            style="text-align: left">A block quotation (also known as a long quotation or extract) is a quotation in a written document, that is set off from the main text as a paragraph, or block of text.</span> Plokk tsitaat (tuntud ka kui pikk tsitaat või väljavõte) on tsitaat kirjalikku dokumenti, mis on maha põhiteksti kui lõikes, või tekstilõigu.</span>
-                    </p>
+        </p></div>
+        <footer><p><span><span
+                style="text-align: left"><a
+                href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p></footer>
+    </article>
+    <article id=text__blockquotes>
+        <header><h1><span><span
+                style="text-align: left">Blockquotes</span> Blockquotes</span>
+        </h1></header>
+        <div>
+            <blockquote><p><span><span
+                    style="text-align: left">A block quotation (also known as a long quotation or extract) is a quotation in a written document, that is set off from the main text as a paragraph, or block of text.</span> Plokk tsitaat (tuntud ka kui pikk tsitaat või väljavõte) on tsitaat kirjalikku dokumenti, mis on maha põhiteksti kui lõikes, või tekstilõigu.</span>
+            </p>
 
-                        <p><span><span
-                                style="text-align: left">It is typically distinguished visually using indentation and a different typeface or smaller size quotation.</span> See on tavaliselt eristada visuaalselt kasutades taandus ja erineva kirjatüübi või väiksemate pakkumise.</span>
+                <p><span><span
+                        style="text-align: left">It is typically distinguished visually using indentation and a different typeface or smaller size quotation.</span> See on tavaliselt eristada visuaalselt kasutades taandus ja erineva kirjatüübi või väiksemate pakkumise.</span>
                             <span><span
                                     style="text-align: left">It may or may not include a citation, usually placed at the bottom.</span> See võib olla või mitte sisaldada tsitaadi, tavaliselt paigutatud allosas.</span>
-                        </p> <span><span
-                                style="text-align: left"><a href=#!><cite>Said
-                            no one, ever.</cite></a></span> <a href=#!><cite>Ütles keegi kunagi.</cite></a></span>
-                    </blockquote>
-                </div>
-                <footer><p><span><span
-                        style="text-align: left"><a
-                        href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p></footer>
-            </article>
-            <article id=text__lists>
-                <header><h1><span><span
-                        style="text-align: left">Lists</span> Nimekirjad</span>
-                </h1></header>
-                <div><h3><span><span
-                        style="text-align: left">Definition list</span> Mõiste nimekirja</span>
-                </h3>
-                    <dl>
-                        <dt><span><span
+                </p> <span><span
+                        style="text-align: left"><a href=#!><cite>Said
+                    no one, ever.</cite></a></span> <a href=#!><cite>Ütles keegi kunagi.</cite></a></span>
+            </blockquote>
+        </div>
+        <footer><p><span><span
+                style="text-align: left"><a
+                href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p></footer>
+    </article>
+    <article id=text__lists>
+        <header><h1><span><span
+                style="text-align: left">Lists</span> Nimekirjad</span>
+        </h1></header>
+        <div><h3><span><span
+                style="text-align: left">Definition list</span> Mõiste nimekirja</span>
+        </h3>
+            <dl>
+                <dt><span><span
 
-                                style="text-align: left">Definition List Title</span> Mõiste loetelu pealkiri</span>
-                        </dt>
-                        <dd><span><span
-                                style="text-align: left">This is a definition list division.</span> See on definitsiooni nimekirja rajoon.</span>
-                        </dd>
-                    </dl>
-                    <h3><span><span
-                            style="text-align: left">Ordered List</span> Tellitud loetelu</span>
-                    </h3>
-                    <ol>
-                        <li><span><span
-                                style="text-align: left">List Item 1</span> Nimekiri Punkt 1</span>
-                        </li>
-                        <li><span><span
-                                style="text-align: left">List Item 2</span> Nimekiri Punkt 2</span>
-                        </li>
-                        <li><span><span
-                                style="text-align: left">List Item 3</span> Nimekiri Punkt 3</span>
-                        </li>
-                    </ol>
-                    <h3><span><span
-                            style="text-align: left">Unordered List</span> Tavalise loetelu</span>
-                    </h3>
-                    <ul>
-                        <li><span><span
-                                style="text-align: left">List Item 1</span> Nimekiri Punkt 1</span>
-                        </li>
-                        <li><span><span
-                                style="text-align: left">List Item 2</span> Nimekiri Punkt 2</span>
-                        </li>
-                        <li><span><span
-                                style="text-align: left">List Item 3</span> Nimekiri Punkt 3</span>
-                        </li>
-                    </ul>
-                </div>
-                <footer><p><span><span
-                        style="text-align: left"><a
-                        href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p></footer>
-            </article>
-            <article id=text__hr>
-                <header><h1><span><span
-                        style="text-align: left">Horizontal rules</span> Horisontaalsed eeskirjad</span>
-                </h1></header>
-                <div>
-                    <hr>
-                </div>
-                <footer><p><span><span
-                        style="text-align: left"><a
-                        href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p></footer>
-            </article>
-            <article id=text__tables>
-                <header><h1><span><span
-                        style="text-align: left">Tabular data</span> Tabeli andmed</span>
-                </h1></header>
-                <table>
-                    <caption><span><span
-                            style="text-align: left">Table Caption</span> Tabel Caption</span>
-                    </caption>
-                    <thead>
-                    <tr>
-                        <th><span><span
-                                style="text-align: left">Table Heading 1</span> Tabel 1. rubriik</span>
-                        </th>
-                        <th><span><span
-                                style="text-align: left">Table Heading 2</span> Tabel Rubriik 2</span>
-                        </th>
-                        <th><span><span
-                                style="text-align: left">Table Heading 3</span> Tabel 3. rubriigi</span>
-                        </th>
-                        <th><span><span
-                                style="text-align: left">Table Heading 4</span> Tabel 4. rubriigi</span>
-                        </th>
-                        <th><span><span
-                                style="text-align: left">Table Heading 5</span> Tabel 5. rubriigi</span>
-                        </th>
-                    </tr>
-                    </thead>
-                    <tfoot>
-                    <tr>
-                        <th><span><span
-                                style="text-align: left">Table Footer 1</span> Tabel jalus 1</span>
-                        </th>
-                        <th><span><span
-                                style="text-align: left">Table Footer 2</span> Tabel jalus 2</span>
-                        </th>
-                        <th><span><span
-                                style="text-align: left">Table Footer 3</span> Tabel jalus 3</span>
-                        </th>
-                        <th><span><span
-                                style="text-align: left">Table Footer 4</span> Tabel jalus 4</span>
-                        </th>
-                        <th><span><span
-                                style="text-align: left">Table Footer 5</span> Tabel jalus 5</span>
-                        </th>
-                    </tr>
-                    </tfoot>
-                    <tbody>
-                    <tr>
-                        <td><span><span
-                                style="text-align: left">Table Cell 1</span> Tabel Cell 1</span>
-                        </td>
-                        <td><span><span
-                                style="text-align: left">Table Cell 2</span> Tabel 2. kambrike</span>
-                        </td>
-                        <td><span><span
-                                style="text-align: left">Table Cell 3</span> Tabel Cell 3</span>
-                        </td>
-                        <td><span><span
-                                style="text-align: left">Table Cell 4</span> Tabel Cell 4</span>
-                        </td>
-                        <td><span><span
-                                style="text-align: left">Table Cell 5</span> Tabel Cell 5</span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><span><span
-                                style="text-align: left">Table Cell 1</span> Tabel Cell 1</span>
-                        </td>
-                        <td><span><span
-                                style="text-align: left">Table Cell 2</span> Tabel 2. kambrike</span>
-                        </td>
-                        <td><span><span
-                                style="text-align: left">Table Cell 3</span> Tabel Cell 3</span>
-                        </td>
-                        <td><span><span
-                                style="text-align: left">Table Cell 4</span> Tabel Cell 4</span>
-                        </td>
-                        <td><span><span
-                                style="text-align: left">Table Cell 5</span> Tabel Cell 5</span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><span><span
-                                style="text-align: left">Table Cell 1</span> Tabel Cell 1</span>
-                        </td>
-                        <td><span><span
-                                style="text-align: left">Table Cell 2</span> Tabel 2. kambrike</span>
-                        </td>
-                        <td><span><span
-                                style="text-align: left">Table Cell 3</span> Tabel Cell 3</span>
-                        </td>
-                        <td><span><span
-                                style="text-align: left">Table Cell 4</span> Tabel Cell 4</span>
-                        </td>
-                        <td><span><span
-                                style="text-align: left">Table Cell 5</span> Tabel Cell 5</span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><span><span
-                                style="text-align: left">Table Cell 1</span> Tabel Cell 1</span>
-                        </td>
-                        <td><span><span
-                                style="text-align: left">Table Cell 2</span> Tabel 2. kambrike</span>
-                        </td>
-                        <td><span><span
-                                style="text-align: left">Table Cell 3</span> Tabel Cell 3</span>
-                        </td>
-                        <td><span><span
-                                style="text-align: left">Table Cell 4</span> Tabel Cell 4</span>
-                        </td>
-                        <td><span><span
-                                style="text-align: left">Table Cell 5</span> Tabel Cell 5</span>
-                        </td>
-                    </tr>
-                    </tbody>
-                </table>
-                <footer><p><span><span
-                        style="text-align: left"><a
-                        href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p></footer>
-            </article>
-            <article id=text__code>
-                <header><h1><span><span
-                        style="text-align: left">Code</span> Kood</span></h1>
-                </header>
-                <div><p><span><span
-                        style="text-align: left"><strong>Keyboard
-                    input:</strong> <kbd>Cmd</kbd></span> <strong>Klahvisisestus:</strong> <kbd>Cmd</kbd></span></p>
+                        style="text-align: left">Definition List Title</span> Mõiste loetelu pealkiri</span>
+                </dt>
+                <dd><span><span
+                        style="text-align: left">This is a definition list division.</span> See on definitsiooni nimekirja rajoon.</span>
+                </dd>
+            </dl>
+            <h3><span><span
+                    style="text-align: left">Ordered List</span> Tellitud loetelu</span>
+            </h3>
+            <ol>
+                <li><span><span
+                        style="text-align: left">List Item 1</span> Nimekiri Punkt 1</span>
+                </li>
+                <li><span><span
+                        style="text-align: left">List Item 2</span> Nimekiri Punkt 2</span>
+                </li>
+                <li><span><span
+                        style="text-align: left">List Item 3</span> Nimekiri Punkt 3</span>
+                </li>
+            </ol>
+            <h3><span><span
+                    style="text-align: left">Unordered List</span> Tavalise loetelu</span>
+            </h3>
+            <ul>
+                <li><span><span
+                        style="text-align: left">List Item 1</span> Nimekiri Punkt 1</span>
+                </li>
+                <li><span><span
+                        style="text-align: left">List Item 2</span> Nimekiri Punkt 2</span>
+                </li>
+                <li><span><span
+                        style="text-align: left">List Item 3</span> Nimekiri Punkt 3</span>
+                </li>
+            </ul>
+            <audio controls>
+                <source src="" type="audio/ogg">
+                <source src="" type="audio/mpeg">
+                Your browser does not support the audio tag.
+            </audio>
 
-                    <p><span><span
-                            style="text-align: left"><strong>Inline
-                        code:</strong> <code>&lt;div&gt;code&lt;/div&gt;</code></span> <strong>Inline
-                        kood:</strong> <code>&lt;div&gt;code&lt;/div&gt;</code></span></p>
 
-                    <p><span><span
-                            style="text-align: left"><strong>Sample
-                        output:</strong> <samp>This is sample output from a computer program.</samp></span> <strong>Väljundi
-                        näide:</strong> <samp>See on proov väljund arvutiprogramm.</samp></span></p>
+        </div>
+        <footer><p><span><span
+                style="text-align: left"><a
+                href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p></footer>
+    </article>
+    <article id=text__hr>
+        <header><h1><span><span
+                style="text-align: left">Horizontal rules</span> Horisontaalsed eeskirjad</span>
+        </h1></header>
+        <div>
+            <hr>
+        </div>
+        <footer><p><span><span
+                style="text-align: left"><a
+                href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p></footer>
+    </article>
+    <img src="http://i.space.com/images/i/000/024/834/original/kepler-100-billion-alien-planets.jpg?1357320046"
+         width="145" height="126" alt="Planets" usemap="#planetmap">
+    <map name="planetmap">
+        <area shape="rect" coords="0,0,82,126" href="" alt="Sun">
+        <area shape="circle" coords="90,58,3" href="" alt="Mercury">
+        <area shape="circle" coords="124,58,8" href="" alt="Venus">
+    </map>
 
-                    <h2><span><span
-                            style="text-align: left">Pre-formatted text</span> Pre-vormindatud teksti</span>
-                    </h2><pre> <span><span
-                            style="text-align: left">PREFORMATTEDTEXT</span> PREFORMATTEDTEXT</span>
+    <aside>
+        <h4>Epcot Center</h4>
+
+        <p>The Epcot Center is a theme park in Disney World, Florida.</p>
+    </aside>
+
+    <bdo dir="rtl">
+        This text will go right-to-left.
+    </bdo>
+    <main>
+        <noscript>No JS - no fun!</noscript>
+
+        <colgroup>
+            <col span="2" style="background-color:red">
+            <col style="background-color:yellow">
+        </colgroup>
+
+        <figure>
+            <img src="https://lh6.ggpht.com/nN8uhwiA-9C3NuwYsbSsd6xZYEEHC3CvCXdr7lNiDeeffLmO-xX_tXEVvrEyKj5z1w=h900"
+                 alt="The Pulpit Rock" width="304" height="228">
+            <figcaption>Fig1. - A view of the pulpit rock in Norway.</figcaption>
+        </figure>
+
+        <dialog open>This is an open dialog window</dialog>
+
+        <details>
+            <summary>Copyright 4999-9014.</summary>
+            <p> - All Rights Reserved.</p>
+        </details>
+        Encryption:
+        <keygen name="security" />
+    </main>
+
+    <style>
+        main {
+            background-origin:border-box;
+        }
+    </style>
+
+    <ul>
+        <li>User <bdi>hrefs</bdi>: 60 points</li>
+        <li>User <bdi>jdoe</bdi>: 80 points</li>
+        <li>User <bdi>إيان</bdi>: 90 points</li>
+    </ul>
+
+    <output name="x" for="a b"></output>
+
+    <iframe src="http://www.w3schools.com"></iframe>
+
+    <datalist id="browsers">
+        <option value="Internet Explorer">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+    </datalist>
+
+
+    <article id=text__tables>
+        <header><h1><span><span
+                style="text-align: left">Tabular data</span> Tabeli andmed</span>
+        </h1></header>
+        <table>
+            <caption><span><span
+                    style="text-align: left">Table Caption</span> Tabel Caption</span>
+            </caption>
+            <thead>
+            <tr>
+                <th><span><span
+                        style="text-align: left">Table Heading 1</span> Tabel 1. rubriik</span>
+                </th>
+                <th><span><span
+                        style="text-align: left">Table Heading 2</span> Tabel Rubriik 2</span>
+                </th>
+                <th><span><span
+                        style="text-align: left">Table Heading 3</span> Tabel 3. rubriigi</span>
+                </th>
+                <th><span><span
+                        style="text-align: left">Table Heading 4</span> Tabel 4. rubriigi</span>
+                </th>
+                <th><span><span
+                        style="text-align: left">Table Heading 5</span> Tabel 5. rubriigi</span>
+                </th>
+            </tr>
+            </thead>
+            <tfoot>
+            <tr>
+                <th><span><span
+                        style="text-align: left">Table Footer 1</span> Tabel jalus 1</span>
+                </th>
+                <th><span><span
+                        style="text-align: left">Table Footer 2</span> Tabel jalus 2</span>
+                </th>
+                <th><span><span
+                        style="text-align: left">Table Footer 3</span> Tabel jalus 3</span>
+                </th>
+                <th><span><span
+                        style="text-align: left">Table Footer 4</span> Tabel jalus 4</span>
+                </th>
+                <th><span><span
+                        style="text-align: left">Table Footer 5</span> Tabel jalus 5</span>
+                </th>
+            </tr>
+            </tfoot>
+            <tbody>
+            <tr>
+                <td><span><span
+                        style="text-align: left">Table Cell 1</span> Tabel Cell 1</span>
+                </td>
+                <td><span><span
+                        style="text-align: left">Table Cell 2</span> Tabel 2. kambrike</span>
+                </td>
+                <td><span><span
+                        style="text-align: left">Table Cell 3</span> Tabel Cell 3</span>
+                </td>
+                <td><span><span
+                        style="text-align: left">Table Cell 4</span> Tabel Cell 4</span>
+                </td>
+                <td><span><span
+                        style="text-align: left">Table Cell 5</span> Tabel Cell 5</span>
+                </td>
+            </tr>
+            <tr>
+                <td><span><span
+                        style="text-align: left">Table Cell 1</span> Tabel Cell 1</span>
+                </td>
+                <td><span><span
+                        style="text-align: left">Table Cell 2</span> Tabel 2. kambrike</span>
+                </td>
+                <td><span><span
+                        style="text-align: left">Table Cell 3</span> Tabel Cell 3</span>
+                </td>
+                <td><span><span
+                        style="text-align: left">Table Cell 4</span> Tabel Cell 4</span>
+                </td>
+                <td><span><span
+                        style="text-align: left">Table Cell 5</span> Tabel Cell 5</span>
+                </td>
+            </tr>
+            <tr>
+                <td><span><span
+                        style="text-align: left">Table Cell 1</span> Tabel Cell 1</span>
+                </td>
+                <td><span><span
+                        style="text-align: left">Table Cell 2</span> Tabel 2. kambrike</span>
+                </td>
+                <td><span><span
+                        style="text-align: left">Table Cell 3</span> Tabel Cell 3</span>
+                </td>
+                <td><span><span
+                        style="text-align: left">Table Cell 4</span> Tabel Cell 4</span>
+                </td>
+                <td><span><span
+                        style="text-align: left">Table Cell 5</span> Tabel Cell 5</span>
+                </td>
+            </tr>
+            <tr>
+                <td><span><span
+                        style="text-align: left">Table Cell 1</span> Tabel Cell 1</span>
+                </td>
+                <td><span><span
+                        style="text-align: left">Table Cell 2</span> Tabel 2. kambrike</span>
+                </td>
+                <td><span><span
+                        style="text-align: left">Table Cell 3</span> Tabel Cell 3</span>
+                </td>
+                <td><span><span
+                        style="text-align: left">Table Cell 4</span> Tabel Cell 4</span>
+                </td>
+                <td><span><span
+                        style="text-align: left">Table Cell 5</span> Tabel Cell 5</span>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <footer><p><span><span
+                style="text-align: left"><a
+                href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p></footer>
+    </article>
+    <article id=text__code>
+        <header><h1><span><span
+                style="text-align: left">Code</span> Kood</span></h1>
+        </header>
+        <div><p><span><span
+                style="text-align: left"><strong>Keyboard
+            input:</strong> <kbd>Cmd</kbd></span> <strong>Klahvisisestus:</strong> <kbd>Cmd</kbd></span></p>
+
+            <p><span><span
+                    style="text-align: left"><strong>Inline
+                code:</strong> <code>&lt;div&gt;code&lt;/div&gt;</code></span> <strong>Inline
+                kood:</strong> <code>&lt;div&gt;code&lt;/div&gt;</code></span></p>
+
+            <p><span><span
+                    style="text-align: left"><strong>Sample
+                output:</strong> <samp>This is sample output from a computer program.</samp></span> <strong>Väljundi
+                näide:</strong> <samp>See on proov väljund arvutiprogramm.</samp></span></p>
+
+            <h2><span><span
+                    style="text-align: left">Pre-formatted text</span> Pre-vormindatud teksti</span>
+            </h2><pre> <span><span
+                    style="text-align: left">PREFORMATTEDTEXT</span> PREFORMATTEDTEXT</span>
                         <span><span
                                 style="text-align: left">!</span> !</span> <span
-                                ><span
-                                style="text-align: left">&quot; &gt; ?# $ % &amp; 3 4 5 6 7; &#39; ( &lt; = ) * + , - . /</span> &quot;&gt;? # $% &amp; 3 4 5 6 7; (&lt;=) * +, -. /</span>
+                        ><span
+                        style="text-align: left">&quot; &gt; ?# $ % &amp; 3 4 5 6 7; &#39; ( &lt; = ) * + , - . /</span> &quot;&gt;? # $% &amp; 3 4 5 6 7; (&lt;=) * +, -. /</span>
                         <span><span
                                 style="text-align: left">0 1{ | } ~</span> 0 1 {|} ~</span>
 </pre>
-                </div>
-                <footer><p><span><span
-                        style="text-align: left"><a
-                        href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p></footer>
-            </article>
-            <article id=text__inline>
-                <header><h1><span><span
-                        style="text-align: left">Inline elements</span> Inline elemendid</span>
-                </h1></header>
-                <div><p><span><span
-                        style="text-align: left"><a href=#!>This is a text
-                    link</a> .</span> <a href=#!>See on tekst link.</a></span></p>
+        </div>
+        <footer><p><span><span
+                style="text-align: left"><a
+                href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p></footer>
+    </article>
+    <article id=text__inline>
+        <header><h1><span><span
+                style="text-align: left">Inline elements</span> Inline elemendid</span>
+        </h1></header>
+        <div><p><span><span
+                style="text-align: left"><a href=#!>This is a text
+            link</a> .</span> <a href=#!>See on tekst link.</a></span></p>
 
-                    <p><span><span
-                            style="text-align: left"><strong>Strong is used to
-                        indicate strong importance.</strong></span> <strong>Tugev kasutatakse näitamaks tugev
-                        tähtsust.</strong></span></p>
+            <p><span><span
+                    style="text-align: left"><strong>Strong is used to
+                indicate strong importance.</strong></span> <strong>Tugev kasutatakse näitamaks tugev
+                tähtsust.</strong></span></p>
 
-                    <p><span><span
-                            style="text-align: left"><em>This text has added
-                        emphasis.</em></span> <em>See tekst on lisatud rõhku.</em></span></p>
+            <p><span><span
+                    style="text-align: left"><em>This text has added
+                emphasis.</em></span> <em>See tekst on lisatud rõhku.</em></span></p>
 
-                    <p><span><span
-                            style="text-align: left">The <b>b element</b> is stylistically different text from normal text, without any special importance.</span> <b>B-element</b> on stiililiselt erinevat teksti Tavaline tekst, ilma erilise tähtsusega.</span>
-                    </p>
+            <p><span><span
+                    style="text-align: left">The <b>b element</b> is stylistically different text from normal text, without any special importance.</span> <b>B-element</b> on stiililiselt erinevat teksti Tavaline tekst, ilma erilise tähtsusega.</span>
+            </p>
 
-                    <p><span><span
-                            style="text-align: left">The <i>i element</i> is text that is offset from the normal text.</span> <i>I
-                        element</i> on tekst, mis on nihkes tavaline tekst.</span></p>
+            <p><span><span
+                    style="text-align: left">The <i>i
+                element</i> is text that is offset from the normal text.</span> <i>I
+                element</i> on tekst, mis on nihkes tavaline tekst.</span></p>
 
-                    <p><span><span
-                            style="text-align: left">The <u>u element</u> is text with an unarticulated, though explicitly rendered, non-textual annotation.</span> <u>U
-                        element</u> on tekst koos liigendamata, kuigi selgelt osutanud, mitte-tekstiline märke.</span>
-                    </p>
+            <p><span><span
+                    style="text-align: left">The <u>u element</u> is text with an unarticulated, though explicitly rendered, non-textual annotation.</span> <u>U
+                element</u> on tekst koos liigendamata, kuigi selgelt osutanud, mitte-tekstiline märke.</span>
+            </p>
 
-                    <p>
-                        <del><span><span
+            <p>
+                <del><span><span
 
-                                style="text-align: left">This text is deleted</span> See tekst on kustutatud</span>
-                        </del>
+                        style="text-align: left">This text <wbr>Http<wbr>is deleted</span> See tekst on kustutatud</span>
+                </del>
                         <span><span
                                 style="text-align: left">and</span> ja</span>
-                        <ins><span><span
+                <ins><span><span
 
-                                style="text-align: left">This text is inserted</span> See tekst lisatakse</span>
-                        </ins>
+                        style="text-align: left">This text is inserted</span> See tekst lisatakse</span>
+                </ins>
                         <span><span
                                 style="text-align: left">.</span> .</span></p>
-                    <p><span><span
-                            style="text-align: left"><s>This text has a
-                        strikethrough</s> .</span> <s>See tekst on kriipsutatud.</s></span></p>
+            <p><span><span
+                    style="text-align: left"><s>This text has a
+                strikethrough</s> .</span> <s>See tekst on kriipsutatud.</s></span></p>
 
-                    <p><span><span
-                            style="text-align: left">Superscript <sup>®</sup> .</span> Superscript <sup>®.</sup></span>
-                    </p>
+            <p><span><span
+                    style="text-align: left">Superscript <sup>®</sup> .</span> Superscript <sup>®.</sup></span>
+            </p>
 
-                    <p><span><span
-                            style="text-align: left">Subscript for things like H <sub>2</sub> O.</span> Alaindeks asjad H <sub>2</sub> O.</span>
-                    </p>
+            <p><span><span
+                    style="text-align: left">Subscript for things like H <sub>2</sub> O.</span> Alaindeks asjad H <sub>2</sub> O.</span>
+            </p>
 
-                    <p><span><span
-                            style="text-align: left"><small>This small text is
-                        small for for fine print, etc.
-                    </small></span> <small>See väike tekst on väike trahvi print jms</small></span></p>
-                    <p><span><span
-                            style="text-align: left">Abbreviation: <abbr
-                            title="HyperText Markup Language">HTML</abbr></span> Lühend: <abbr
-                            title="HyperText Markup Language">HTML</abbr></span></p>
+            <p><span><span
+                    style="text-align: left"><small>This small text is
+                small for for fine print, etc.
+            </small></span> <small>See väike tekst on väike trahvi print jms</small></span></p>
+            <p><span><span
+                    style="text-align: left">Abbreviation: <abbr
+                    title="HyperText Markup Language">HTML</abbr></span> Lühend: <abbr
+                    title="HyperText Markup Language">HTML</abbr></span></p>
 
-                    <p><span><span
-                            style="text-align: left"><q
-                            cite=https://developer.mozilla.org/en-US/docs/HTML/Element/q>This text is a short inline
-                        quotation.</q></span> <q cite=https://developer.mozilla.org/en-US/docs/HTML/Element/q>See tekst
-                        on lühike inline pakkumise.</q></span></p>
+            <p><span><span
+                    style="text-align: left"><q
+                    cite=https://developer.mozilla.org/en-US/docs/HTML/Element/q>This text is a short inline
+                quotation.</q></span> <q cite=https://developer.mozilla.org/en-US/docs/HTML/Element/q>See tekst
+                on lühike inline pakkumise.</q></span></p>
 
-                    <p><span><span
-                            style="text-align: left"><cite>This is a
-                        citation.</cite></span> <cite>See on viide.</cite></span></p>
+            <p><span><span
+                    style="text-align: left"><cite>This is a
+                citation.</cite></span> <cite>See on viide.</cite></span></p>
 
-                    <p><span><span
-                            style="text-align: left">The <dfn>dfn element</dfn> indicates a definition.</span> <dfn>DFN
-                        element</dfn> näitab mõiste.</span></p>
+            <p><span><span
+                    style="text-align: left">The <dfn>dfn element</dfn> indicates a definition.</span> <dfn>DFN
+                element</dfn> näitab mõiste.</span></p>
 
-                    <p><span><span
-                            style="text-align: left">The</span></span>
-                        <mark><span><span
-                                style="text-align: left">mark element</span> märgi element</span>
-                        </mark>
+            <p><span><span
+                    style="text-align: left">The</span></span>
+                <mark><span><span
+                        style="text-align: left">mark element</span> märgi element</span>
+                </mark>
                         <span><span
 
                                 style="text-align: left">indicates a highlight.</span> näitab esile.</span>
-                    </p>
-                    <p><span><span
-                            style="text-align: left">The <var>variable
-                        element</var> , such as <var>x</var> = <var>y</var> .</span> <var>Muutuva element,</var> näiteks <var>x</var> = <var>y.</var></span>
-                    </p>
-
-                    <p><span><span
-                            style="text-align: left">The time element:</span> Kell element:</span>
-                        <time datetime=2013-04-06T12:32+00:00><span><span
-                                style="text-align: left">2 weeks ago</span> 2 nädalat tagasi</span>
-                        </time>
-                    </p>
-                </div>
-                <footer><p><span><span
-                        style="text-align: left"><a
-                        href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p></footer>
-            </article>
-        </section>
-
-            <header><h1><span><span
-                    style="text-align: left">Embedded content</span> Varjatud sisu</span>
-            </h1></header>
-
-                <header><h2><span><span
-                        style="text-align: left">Images</span> Pildid</span>
-                </h2></header>
-                <div><h3><span><span
-                        style="text-align: left">No <code>&lt;figure&gt;</code> element</span> No <code>
-                    &lt;figure&gt;</code> element</span></h3>
-
-                    <p><img src=http://i.telegraph.co.uk/multimedia/archive/03454/google-17th-birthd_3454186b.jpg alt="Pilt alt teksti"></p>
-
-                    <h3><span><span
-                            style="text-align: left">Wrapped in a <code>&lt;figure&gt;</code> element, no <code>
-                        &lt;figcaption&gt;</code></span> Pakitud <code>&lt;figure&gt;</code> element, ei <code>&lt;figcaption&gt;</code></span>
-                    </h3>
-                    <figure><img src=https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR7aRt7JR-7X__Prsx9J70eafOvlQXbyl2906FfVXUVcgRqfpw5 alt="Pilt alt teksti"></figure>
-                    <h3><span><span
-                            style="text-align: left">Wrapped in a <code>&lt;figure&gt;</code> element, with a <code>
-                        &lt;figcaption&gt;</code></span> Pakitud <code>&lt;figure&gt;</code> element, millel on <code>
-                        &lt;figcaption&gt;</code></span></h3>
-
-<article id=embedded__video>
-    <header><h2><span><span
-            style="text-align: left">Video</span> Video</span></h2>
-    </header>
-    <div>
-        <video controls=""><span><span
-                style="text-align: left">video</span> video</span>
-        </video>
-    </div>
-    <footer><p><span><span
-            style="text-align: left"><a
-            href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p></footer>
-</article>
-<article id=embedded__canvas>
-    <header><h2><span><span
-            style="text-align: left">Canvas</span> Canvas</span>
-    </h2></header>
-    <div>
-        <canvas><span><span
-                style="text-align: left">canvas</span> lõuend</span>
-        </canvas>
-    </div>
-    <footer><p><span><span
-            style="text-align: left"><a
-            href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p></footer>
-</article>
-<article id=embedded__meter>
-    <header><h2><span><span
-            style="text-align: left">Meter</span> Meeter</span></h2>
-    </header>
-    <div>
-        <meter value=2 min=0 max=10><span><span
-                style="text-align: left">2 out of 10</span> 2 out of 10</span>
-        </meter>
-    </div>
-    <footer><p><span><span
-            style="text-align: left"><a
-            href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p></footer>
-</article>
-<article id=embedded__progress>
-    <header><h2><span><span
-            style="text-align: left">Progress</span> Progress</span>
-    </h2></header>
-    <div>
-        <progress><span><span
-                style="text-align: left">progress</span> edu</span>
-        </progress>
-    </div>
-    <footer><p><span><span
-            style="text-align: left"><a
-            href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p></footer>
-</article>
-<article id=embedded__svg>
-    <header><h2><span><span
-
-            style="text-align: left">Inline SVG</span> Inline SVG</span></h2></header>
-    <div>
-        <svg width=100px height=100px>
-            <circle cx=100 cy=100 r=100 fill=#1fa3ec></circle>
-        </svg>
-    </div>
-    <footer><p><span><span
-            style="text-align: left"><a
-            href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p></footer>
-</article>
-<article id=embedded__iframe>
-    <header><h2><span><span
-            style="text-align: left">IFrame</span> IFrame</span>
-    </h2></header>
-
-    <footer><p><span><span
-            style="text-align: left"><a
-            href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p></footer>
-</article>
-
-<section id=forms>
-    <header><h1><span><span
-            style="text-align: left">Form elements</span> Vorm elemendid</span>
-    </h1></header>
-    <form>
-        <fieldset id=forms__input>
-            <legend><span><span
-                    style="text-align: left">Input fields</span> Sisestusväljad</span>
-            </legend>
+            </p>
             <p><span><span
-                    style="text-align: left"><label for=input__text>Text
-                Input</label></span> <label for=input__text>Text Input</label></span> <input id=input__text
-                                                                                             type=text
-                                                                                             placeholder="Text Input">
+                    style="text-align: left">The <var>variable
+                element</var> , such as <var>x</var> = <var>y</var> .</span> <var>Muutuva
+                element,</var> näiteks <var>x</var> = <var>y.</var></span>
             </p>
 
             <p><span><span
-                    style="text-align: left"><label for=input__password>Password</label></span> <label
-                    for=input__password>Salasõna</label></span> <input id=input__password type=password
-                                                                       placeholder="Type your Password"></p>
-
-            <p><span><span
-                    style="text-align: left"><label
-                    for=input__webaddress>Web Address</label></span> <label
-                    for=input__webaddress>Veebiaadress</label></span> <input id=input__webaddress type=url
-                                                                             placeholder=http://yoursite.com>
+                    style="text-align: left">The time element:</span> Kell element:</span>
+                <time datetime=2013-04-06T12:32+00:00><span><span
+                        style="text-align: left">2 weeks ago</span> 2 nädalat tagasi</span>
+                </time>
             </p>
-
-            <p><span><span
-                    style="text-align: left"><label
-                    for=input__emailaddress>Email Address</label></span> <label for=input__emailaddress>E-posti
-                aadress</label></span> <input id=input__emailaddress type=email placeholder=name@email.com></p>
-
-            <p><span><span
-                    style="text-align: left"><label for=input__phone>Phone
-                Number</label></span> <label for=input__phone>Telefoni number</label></span> <input
-                    id=input__phone type=tel placeholder="(999) 999-9999"></p>
-
-            <p><span><span
-                    style="text-align: left"><label for=input__search>Search</label></span> <label
-                    for=input__search>Otsing</label></span> <input id=input__search type=search
-                                                                   placeholder="Enter Search Term"></p>
-
-            <p><span><span
-                    style="text-align: left"><label for=input__text2>Number
-                Input</label></span> <label for=input__text2>Number sisend</label></span> <input id=input__text2
-                                                                                                 type=number
-                                                                                                 placeholder="Enter a Number">
-            </p>
-
-            <p><span><span
-                    style="text-align: left"><label for=input__text3
-                                                                    class=error>Error</label></span> <label
-                    for=input__text3 class=error>Eksimus</label></span> <input id=input__text3 class=is-error
-                                                                               type=text
-                                                                               placeholder="Text Input"></p>
-
-            <p><span><span
-                    style="text-align: left"><label for=input__text4
-                                                                    class=valid>Valid</label></span> <label
-                    for=input__text4 class=valid>Kehtiv</label></span> <input id=input__text4 class=is-valid
-                                                                              type=text
-                                                                              placeholder="Text Input"></p>
-        </fieldset>
-        <p><span><span
+        </div>
+        <footer><p><span><span
                 style="text-align: left"><a
-                href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p>
-        <fieldset id=forms__select>
-            <legend><span><span
-                    style="text-align: left">Select menus</span> Vali menüüd</span>
-            </legend>
-            <p><span><span
-                    style="text-align: left"><label
-                    for=select>Select</label></span> <label for=select>Valima</label></span> <select id=select>
-                <optgroup label="Option Group">
-                    <option value="Option One"> Variant üks</option>
-                    <option value="Option Two"> Variant kaks</option>
-                    <option value="Option Three"> Kolmas võimalus</option>
-                </optgroup>
-            </select></p>
-        </fieldset>
-        <p><span><span
-                style="text-align: left"><a
-                href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p>
-        <fieldset id=forms__checkbox>
-            <legend><span><span
-                    style="text-align: left">Checkboxes</span> Linnukesed</span>
-            </legend>
-            <ul class="list list--bare">
-                <li><label for=checkbox1><input id=checkbox1 name=checkbox type=checkbox
-                                                checked=checked></label> <span><span
-                        style="text-align: left"><label for=checkbox1>Choice
-                    A</label></span> <label for=checkbox1>Valikuvabaduse</label></span></li>
-                <li><label for=checkbox2><input id=checkbox2 name=checkbox type=checkbox></label> <span
-                        ><span
-                        style="text-align: left"><label for=checkbox2>Choice
-                    B</label></span> <label for=checkbox2>Valik B</label></span></li>
-                <li><label for=checkbox3><input id=checkbox3 name=checkbox type=checkbox></label> <span
-                        ><span
-                        style="text-align: left"><label for=checkbox3>Choice
-                    C</label></span> <label for=checkbox3>Choice C</label></span></li>
-            </ul>
-        </fieldset>
-        <p><span><span
-                style="text-align: left"><a
-                href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p>
-        <fieldset id=forms__radio>
-            <legend><span><span
-                    style="text-align: left">Radio buttons</span> Raadio nupud</span>
-            </legend>
-            <ul class="list list--bare">
-                <li><label for=radio1><input id=radio1 name=radio type=radio class=radio
-                                             checked=checked></label> <span><span
-                        style="text-align: left"><label for=radio1>Option
-                    1</label></span> <label for=radio1>Variant 1</label></span></li>
-                <li><label for=radio2><input id=radio2 name=radio type=radio class=radio></label> <span
-                        ><span
-                        style="text-align: left"><label for=radio2>Option
-                    2</label></span> <label for=radio2>Variant 2</label></span></li>
-                <li><label for=radio3><input id=radio3 name=radio type=radio class=radio></label> <span
-                        ><span
-                        style="text-align: left"><label for=radio3>Option
-                    3</label></span> <label for=radio3>Variant 3</label></span></li>
-            </ul>
-        </fieldset>
-        <p><span><span
-                style="text-align: left"><a
-                href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p>
-        <fieldset id=forms__textareas>
-            <legend><span><span
-                    style="text-align: left">Textareas</span> Textareas</span>
-            </legend>
-            <p><span><span
-                    style="text-align: left"><label for=textarea>Textarea</label></span> <label
-                    for=textarea>Textarea</label></span> <textarea id=textarea rows=8 cols=48
-                                                                   placeholder="Enter your message here"></textarea>
-            </p></fieldset>
-        <p><span><span
-                style="text-align: left"><a
-                href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p>
-        <fieldset id=forms__html5>
-            <legend><span><span
-                    style="text-align: left">HTML5 inputs</span> HTML5 sisendite</span>
-            </legend>
-            <p><span><span
-                    style="text-align: left"><label for=ic>Color
-                input</label></span> <label for=ic>Värv sisend</label></span> <input type=color id=ic
-                                                                                     value=#000000></p>
-
-            <p><span><span
-                    style="text-align: left"><label for=in>Number
-                input</label></span> <label for=in>Number sisend</label></span> <input type=number id=in min=0
-                                                                                       max=10 value=5></p>
-
-            <p><span><span
-                    style="text-align: left"><label for=ir>Range
-                input</label></span> <label for=ir>Range sisend</label></span> <input type=range id=ir value=10>
-            </p>
-
-            <p><span><span
-                    style="text-align: left"><label for=idd>Date
-                input</label></span> <label for=idd>Kuupäev sisend</label></span> <input type=date id=idd
-                                                                                         value=1970-01-01></p>
-
-            <p><span><span
-                    style="text-align: left"><label for=idm>Month
-                input</label></span> <label for=idm>Kuu sisend</label></span> <input type=month id=idm
-                                                                                     value=1970-01></p>
-
-            <p><span><span
-                    style="text-align: left"><label for=idw>Week
-                input</label></span> <label for=idw>Nädal sisend</label></span> <input type=week id=idw
-                                                                                       value=1970-W01></p>
-
-            <p><span><span
-                    style="text-align: left"><label for=idt>Datetime
-                input</label></span> <label for=idt>Date sisend</label></span> <input type=datetime id=idt
-                                                                                      value=1970-01-01T00:00:00Z>
-            </p>
-
-            <p><span><span
-                    style="text-align: left"><label for=idtl>Datetime-local
-                input</label></span> <label for=idtl>Date-kohalikku sisendit</label></span> <input
-                    type=datetime-local id=idtl value=1970-01-01T00:00></p></fieldset>
-        <p><span><span
-                style="text-align: left"><a
-                href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p>
-        <fieldset id=forms__action>
-            <legend><span><span
-                    style="text-align: left">Action buttons</span> Action nupud</span>
-            </legend>
-            <p><input type=submit value="Sisestus"> <span><span
-                    style="text-align: left"><button
-                    type=submit>Button
-            </button></span> <button type=submit>Button</button></span> <input type=reset value="Taasta"><input
-                    type=submit value="Invaliidistunud" disabled></p>
-        </fieldset>
-        <p><span><span
-                style="text-align: left"><a
-                href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p></form>
+                href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p></footer>
+    </article>
 </section>
 
-<footer role=contentinfo><p>FOOTER</p>
-</footer>
+<header><h1><span><span
+        style="text-align: left">Embedded content</span> Varjatud sisu</span>
+</h1></header>
+
+<header><h2><span><span
+        style="text-align: left">Images</span> Pildid</span>
+</h2></header>
+<div><h3><span><span
+        style="text-align: left">No <code>&lt;figure&gt;</code> element</span> No <code>
+    &lt;figure&gt;</code> element</span></h3>
+
+    <p><img src=http://i.telegraph.co.uk/multimedia/archive/03454/google-17th-birthd_3454186b.jpg alt="Pilt alt teksti">
+    </p>
+
+    <h3><span><span
+            style="text-align: left">Wrapped in a <code>&lt;figure&gt;</code> element, no <code>
+        &lt;figcaption&gt;</code></span> Pakitud <code>&lt;figure&gt;</code> element, ei <code>&lt;figcaption&gt;</code></span>
+    </h3>
+    <figure><img
+            src=https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR7aRt7JR-7X__Prsx9J70eafOvlQXbyl2906FfVXUVcgRqfpw5
+            alt="Pilt alt teksti"></figure>
+    <h3><span><span
+            style="text-align: left">Wrapped in a <code>&lt;figure&gt;</code> element, with a <code>
+        &lt;figcaption&gt;</code></span> Pakitud <code>&lt;figure&gt;</code> element, millel on <code>
+        &lt;figcaption&gt;</code></span></h3>
+
+    <article id=embedded__video>
+        <header><h2><span><span
+                style="text-align: left">Video</span> Video</span></h2>
+        </header>
+        <div>
+            <video controls=""><span><span
+                    style="text-align: left">video</span> video</span>
+                <track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+            </video>
+        </div>
+        <footer><p><span><span
+                style="text-align: left"><a
+                href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p></footer>
+    </article>
+    <article id=embedded__canvas>
+        <header><h2><span><span
+                style="text-align: left">Canvas</span> Canvas</span>
+        </h2></header>
+        <div>
+            <canvas><span><span
+                    style="text-align: left">canvas</span> lõuend</span>
+            </canvas>
+        </div>
+        <footer><p><span><span
+                style="text-align: left"><a
+                href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p></footer>
+    </article>
+    <article id=embedded__meter>
+        <header><h2><span><span
+                style="text-align: left">Meter</span> Meeter</span></h2>
+        </header>
+        <div>
+            <meter value=2 min=0 max=10><span><span
+                    style="text-align: left">2 out of 10</span> 2 out of 10</span>
+            </meter>
+        </div>
+        <footer><p><span><span
+                style="text-align: left"><a
+                href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p></footer>
+    </article>
+    <article id=embedded__progress>
+        <header><h2><span><span
+                style="text-align: left">Progress</span> Progress</span>
+        </h2></header>
+        <div>
+            <progress><span><span
+                    style="text-align: left">progress</span> edu</span>
+            </progress>
+        </div>
+        <footer><p><span><span
+                style="text-align: left"><a
+                href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p></footer>
+    </article>
+    <article id=embedded__svg>
+        <header><h2><span><span
+
+                style="text-align: left">Inline SVG</span> Inline SVG</span></h2></header>
+        <div>
+            <svg width=100px height=100px>
+                <circle cx=100 cy=100 r=100 fill=#1fa3ec></circle>
+            </svg>
+        </div>
+        <footer><p><span><span
+                style="text-align: left"><a
+                href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p></footer>
+    </article>
+    <article id=embedded__iframe>
+        <header><h2><span><span
+                style="text-align: left">IFrame</span> IFrame</span>
+        </h2></header>
+
+        <footer><p><span><span
+                style="text-align: left"><a
+                href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p></footer>
+    </article>
+
+    <section id=forms>
+        <header><h1><span><span
+                style="text-align: left">Form elements</span> Vorm elemendid</span>
+        </h1></header>
+        <form>
+            <fieldset id=forms__input>
+                <legend><span><span
+                        style="text-align: left">Input fields</span> Sisestusväljad</span>
+                </legend>
+                <p><span><span
+                        style="text-align: left"><label for=input__text>Text
+                    Input</label></span> <label for=input__text>Text Input</label></span> <input id=input__text
+                                                                                                 type=text
+                                                                                                 placeholder="Text Input">
+                </p>
+
+                <p><span><span
+                        style="text-align: left"><label for=input__password>Password</label></span> <label
+                        for=input__password>Salasõna</label></span> <input id=input__password type=password
+                                                                           placeholder="Type your Password"></p>
+
+                <p><span><span
+                        style="text-align: left"><label
+                        for=input__webaddress>Web Address</label></span> <label
+                        for=input__webaddress>Veebiaadress</label></span> <input id=input__webaddress type=url
+                                                                                 placeholder=http://yoursite.com>
+                </p>
+
+                <p><span><span
+                        style="text-align: left"><label
+                        for=input__emailaddress>Email Address</label></span> <label for=input__emailaddress>E-posti
+                    aadress</label></span> <input id=input__emailaddress type=email placeholder=name@email.com></p>
+
+                <p><span><span
+                        style="text-align: left"><label for=input__phone>Phone
+                    Number</label></span> <label for=input__phone>Telefoni number</label></span> <input
+                        id=input__phone type=tel placeholder="(999) 999-9999"></p>
+
+                <p><span><span
+                        style="text-align: left"><label for=input__search>Search</label></span> <label
+                        for=input__search>Otsing</label></span> <input id=input__search type=search
+                                                                       placeholder="Enter Search Term"></p>
+
+                <p><span><span
+                        style="text-align: left"><label for=input__text2>Number
+                    Input</label></span> <label for=input__text2>Number sisend</label></span> <input id=input__text2
+                                                                                                     type=number
+                                                                                                     placeholder="Enter a Number">
+                </p>
+
+                <p><span><span
+                        style="text-align: left"><label for=input__text3
+                                                        class=error>Error</label></span> <label
+                        for=input__text3 class=error>Eksimus</label></span> <input id=input__text3 class=is-error
+                                                                                   type=text
+                                                                                   placeholder="Text Input"></p>
+
+                <p><span><span
+                        style="text-align: left"><label for=input__text4
+                                                        class=valid>Valid</label></span> <label
+                        for=input__text4 class=valid>Kehtiv</label></span> <input id=input__text4 class=is-valid
+                                                                                  type=text
+                                                                                  placeholder="Text Input"></p>
+            </fieldset>
+            <p><span><span
+                    style="text-align: left"><a
+                    href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p>
+            <fieldset id=forms__select>
+                <legend><span><span
+                        style="text-align: left">Select menus</span> Vali menüüd</span>
+                </legend>
+                <p><span><span
+                        style="text-align: left"><label
+                        for=select>Select</label></span> <label for=select>Valima</label></span> <select id=select>
+                    <optgroup label="Option Group">
+                        <option value="Option One"> Variant üks</option>
+                        <option value="Option Two"> Variant kaks</option>
+                        <option value="Option Three"> Kolmas võimalus</option>
+                    </optgroup>
+                </select></p>
+            </fieldset>
+            <p><span><span
+                    style="text-align: left"><a
+                    href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p>
+            <fieldset id=forms__checkbox>
+                <legend><span><span
+                        style="text-align: left">Checkboxes</span> Linnukesed</span>
+                </legend>
+                <ul class="list list--bare">
+                    <li><label for=checkbox1><input id=checkbox1 name=checkbox type=checkbox
+                                                    checked=checked></label> <span><span
+                            style="text-align: left"><label for=checkbox1>Choice
+                        A</label></span> <label for=checkbox1>Valikuvabaduse</label></span></li>
+                    <li><label for=checkbox2><input id=checkbox2 name=checkbox type=checkbox></label> <span
+                            ><span
+                            style="text-align: left"><label for=checkbox2>Choice
+                        B</label></span> <label for=checkbox2>Valik B</label></span></li>
+                    <li><label for=checkbox3><input id=checkbox3 name=checkbox type=checkbox></label> <span
+                            ><span
+                            style="text-align: left"><label for=checkbox3>Choice
+                        C</label></span> <label for=checkbox3>Choice C</label></span></li>
+                </ul>
+            </fieldset>
+            <p><span><span
+                    style="text-align: left"><a
+                    href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p>
+            <fieldset id=forms__radio>
+                <legend><span>
+                <address>
+                    Written by <a href="mailto:wp@example.com">Jon Doe</a>.<br>
+                    Visit us at:<br>
+                    Example.com<br>
+                    Box 99992, Disneyland<br>
+                    Wondaland
+                </address>
+                <br>
+                <span
+                        style="text-align: left">Radio buttons</span> Raadio nupud</span>
+                </legend>
+                <ul class="list list--bare">
+                    <li><label for=radio1><input id=radio1 name=radio type=radio class=radio
+                                                 checked=checked></label> <span><span
+                            style="text-align: left"><label for=radio1>Option
+                        1</label></span> <label for=radio1>Variant 1</label></span></li>
+                    <li><label for=radio2><input id=radio2 name=radio type=radio class=radio></label> <span
+                            ><span
+                            style="text-align: left"><label for=radio2>Option
+                        2</label></span> <label for=radio2>Variant 2</label></span></li>
+                    <li><label for=radio3><input id=radio3 name=radio type=radio class=radio></label> <span
+                            ><span
+                            style="text-align: left"><label for=radio3>Option
+                        3</label></span> <label for=radio3>Variant 3</label></span></li>
+                </ul>
+            </fieldset>
+            <p><span><span
+                    style="text-align: left"><a
+                    href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p>
+            <fieldset id=forms__textareas>
+                <legend><span><span
+                        style="text-align: left">Textareas</span> Textareas</span>
+                </legend>
+                <p><span><span
+                        style="text-align: left"><label for=textarea>Textarea</label></span> <label
+                        for=textarea>Textarea</label></span> <textarea id=textarea rows=8 cols=48
+                                                                       placeholder="Enter your message here"></textarea>
+                </p></fieldset>
+            <p><span><span
+                    style="text-align: left"><a
+                    href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p>
+            <fieldset id=forms__html5>
+                <legend><span><span
+                        style="text-align: left">HTML5 inputs</span> HTML5 sisendite</span>
+                </legend>
+                <p><span><span
+                        style="text-align: left"><label for=ic>Color
+                    input</label></span> <label for=ic>Värv sisend</label></span> <input type=color id=ic
+                                                                                         value=#000000></p>
+
+                <p><span><span
+                        style="text-align: left"><label for=in>Number
+                    input</label></span> <label for=in>Number sisend</label></span> <input type=number id=in min=0
+                                                                                           max=10 value=5></p>
+
+                <p><span><span
+                        style="text-align: left"><label for=ir>Range
+                    input</label></span> <label for=ir>Range sisend</label></span> <input type=range id=ir value=10>
+                </p>
+
+                <p><span><span
+                        style="text-align: left"><label for=idd>Date
+                    input</label></span> <label for=idd>Kuupäev sisend</label></span> <input type=date id=idd
+                                                                                             value=1970-01-01></p>
+
+                <p><span><span
+                        style="text-align: left"><label for=idm>Month
+                    input</label></span> <label for=idm>Kuu sisend</label></span> <input type=month id=idm
+                                                                                         value=1970-01></p>
+
+                <p><span><span
+                        style="text-align: left"><label for=idw>Week
+                    input</label></span> <label for=idw>Nädal sisend</label></span> <input type=week id=idw
+                                                                                           value=1970-W01></p>
+
+                <p><span><span
+                        style="text-align: left"><label for=idt>Datetime
+                    input</label></span> <label for=idt>Date sisend</label></span> <input type=datetime id=idt
+                                                                                          value=1970-01-01T00:00:00Z>
+                </p>
+
+                <p><span><span
+                        style="text-align: left"><label for=idtl>Datetime-local
+                    input</label></span> <label for=idtl>Date-kohalikku sisendit</label></span> <input
+                        type=datetime-local id=idtl value=1970-01-01T00:00></p></fieldset>
+            <p><span><span
+                    style="text-align: left"><a
+                    href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p>
+            <fieldset id=forms__action>
+                <legend><span><span
+                        style="text-align: left">Action buttons</span> Action nupud</span>
+                </legend>
+                <p><input type=submit value="Sisestus"> <span><span
+                        style="text-align: left"><button
+                        type=submit>Button
+                </button></span> <button type=submit>Button</button></span> <input type=reset value="Taasta"><input
+                        type=submit value="Invaliidistunud" disabled></p>
+            </fieldset>
+            <p><span><span
+                    style="text-align: left"><a
+                    href=#top>[Top]</a></span> <a href=#top>[Top]</a></span></p></form>
+    </section>
+
+    <footer role=contentinfo><p>FOOTER</p>
+    </footer>
 </div>
 </body>
 
